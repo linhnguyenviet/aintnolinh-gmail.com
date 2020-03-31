@@ -1,0 +1,106 @@
+.input-parameter {
+  .action-center {
+    p {
+      margin: 0;
+      padding: 2px;
+      color: #cd0000;
+      font-weight: bold;
+      align-self: center;
+    }
+    .action-button {
+      button {
+        .active {
+          background-color: #cd0000;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .input-table {
+    display: flex;
+    .input-info {
+      border: solid 1px #d8d8d8;
+      background-color: #ffffff;
+      font-size: calc(14em / 18);
+      letter-spacing: -0.03px;
+      margin-left: calc(11em / 18);
+      margin-top: 11px;
+      ul {
+        list-style-type: none;
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+        li {
+          height: 44px;
+          display: flex;
+          border-bottom: solid 1px #d8d8d8;
+          border-collapse: collapse;
+          &:hover {
+            cursor: pointer;
+            background-color: #cd0000;
+            color: #ffffff;
+          }
+          span {
+            margin: calc(14em / 18) calc(12em / 18);
+          }
+        }
+      }
+    }
+    .data-table {
+      margin-left: calc(11em / 18);
+      width: calc(1632em / 18);
+      margin-top: 11px;
+      table {
+        border-collapse: collapse;
+        // width: 100%;
+        th {
+          width: fit-content;
+          border: 1px solid #d8d8d8;
+          background-color: #eaeaea;
+          height: 44px;
+          font-size: calc(14em / 18);
+          &:first-child {
+            padding: 0px;
+            text-align: center;
+          }
+        }
+        tr {
+          height: calc(44em / 18);
+          &:nth-child(odd) {
+            background-color: #ffffff;
+          }
+          td {
+            font-size: 1em;
+            width: 1%;
+            border: 1px solid #d8d8d8;
+            text-align: left;
+            padding: 0px calc(24em / 18);
+            input[type="text"] {
+              height: calc(32em / 18);
+              border-radius: 4px;
+              border: solid 1px #d8d8d8;
+              padding-left: calc(10em / 18);
+            }
+            &:first-child {
+              font-size: calc(14em / 18);
+            }
+            &:nth-child(2) {
+              padding: 0px calc(13em / 18) 0px calc(8em / 18);
+              input {
+                margin: 0px;
+                width: 1em;
+                height: 1em;
+              }
+            }
+            &:last-child {
+              width: 83%;
+            }
+            span {
+              font-size: 0.8em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

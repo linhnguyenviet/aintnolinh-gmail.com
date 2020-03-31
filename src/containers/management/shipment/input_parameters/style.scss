@@ -1,0 +1,59 @@
+.input-parameter {
+  .shipment-input-table {
+    display: flex;
+    .input-info {
+      border: solid 1px #d8d8d8;
+      background-color: #ffffff;
+      font-size: 14px;
+      letter-spacing: -0.03px;
+      margin-left: 11px;
+      margin-top: 0px;
+      margin-right: 13px;
+      width: 8.5%;
+      ul {
+        list-style-type: none;
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+        li {
+          height: 44px;
+          display: flex;
+          border-bottom: solid 1px #d8d8d8;
+          border-collapse: collapse;
+          span {
+            margin: 14px 12px;
+          }
+          &:hover {
+            cursor: pointer;
+            background-color: #cd0000;
+            color: white;
+          }
+          .active {
+            background-color: #cd0000;
+            color: white;
+          }
+        }
+      }
+    }
+    table {
+      width: 100%;
+      background-color: #ffffff;
+      border-collapse: collapse;
+      overflow: scroll;
+      font-size: 14px;
+      tr {
+        &:nth-child(even) {
+          background-color: #f1f1f1;
+        }
+        td {
+          padding: 13px 24px;
+          border: solid 1px #d8d8d8;
+        }
+      }
+      thead,
+      tfoot {
+        background-color: #e1e1e1;
+      }
+    }
+  }
+}

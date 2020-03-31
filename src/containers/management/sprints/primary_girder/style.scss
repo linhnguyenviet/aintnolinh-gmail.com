@@ -1,0 +1,55 @@
+.FMCT1700 {
+  .columns-sprints {
+    .columns-content {
+      ul {
+        li {
+          &:hover {
+            cursor: pointer;
+            background-color: #cd0000;
+            color: #ffffff;
+          }
+        }
+      }
+      .list-select {
+        ul {
+          li {
+            border: px solid #ffffff;
+          }
+        }
+      }
+    }
+  }
+  .tableDisplay {
+    width: 100%;
+    display: flex;
+  }
+  .tableCheckbox {
+    padding: 0;
+    width: 1%;
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      height: 100%;
+      th {
+        width: fit-content;
+        height: calc(44em / 18);
+        border: 1px solid #d8d8d8;
+        background-color: #eaeaea;
+        font-size: calc(14em / 18);
+        padding: 0px 14px;
+      }
+      tr {
+        height: calc(44em / 18);
+        &:nth-child(odd) {
+          background-color: #ffffff;
+        }
+        td {
+          font-size: calc(12em / 18);
+          width: 1%;
+          border: 1px solid #d8d8d8;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

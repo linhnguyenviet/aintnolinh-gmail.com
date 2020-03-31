@@ -1,0 +1,116 @@
+.employee-management {
+  padding: 23px 55px;
+  .top-content {
+    display: flex;
+    justify-content: space-between;
+    .employee-info {
+      width: 48%;
+      padding: 25px;
+      border: solid 1px #d8d8d8;
+      background-color: #f1f1f1;
+      ul {
+        list-style-type: none;
+        font-size: 14px;
+        width: 45%;
+        margin: 0;
+        padding: 0;
+        li {
+          display: flex;
+          justify-content: space-between;
+          margin: 4px 0px;
+          span {
+            width: 50%;
+            align-self: center;
+          }
+          select {
+            width: 50%;
+            padding: 6px 9px;
+          }
+        }
+      }
+    }
+    table {
+      width: 48%;
+      height: 352px;
+      background-color: #ffffff;
+      border-collapse: collapse;
+      overflow: scroll;
+      tr {
+        &:nth-child(even) {
+          background-color: #f1f1f1;
+        }
+        td {
+          padding: 9px 13px;
+          border: solid 1px #d8d8d8;
+        }
+      }
+      thead {
+        font-size: 13px;
+        font-weight: bold;
+        background-color: #f1f1f1;
+        tr {
+          &:first-child {
+            font-size: 18px;
+            text-align: center;
+          }
+          td {
+            padding: 14px;
+          }
+        }
+      }
+      tbody {
+        font-size: 14px;
+        tr {
+          height: 44px;
+        }
+      }
+      tfoot {
+        tr {
+          background-color: #f1f1f1;
+          height: 44px;
+        }
+      }
+    }
+  }
+  .bottom-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    table {
+      max-width: 51%;
+      background-color: #ffffff;
+      border-collapse: collapse;
+      overflow: scroll;
+      tr {
+        &:nth-child(even) {
+          background-color: #f1f1f1;
+        }
+        td {
+          padding: 9px 13px;
+          border: solid 1px #d8d8d8;
+        }
+      }
+      thead {
+        font-size: 13px;
+        font-weight: bold;
+        background-color: #f1f1f1;
+      }
+      tbody {
+        font-size: 14px;
+        tr {
+          height: 44px;
+        }
+      }
+      tfoot {
+        tr {
+          background-color: #f1f1f1;
+          height: 44px;
+        }
+      }
+    }
+    .employee-chart {
+      width: 48%;
+      background-color: #f5f5f5;
+    }
+  }
+}

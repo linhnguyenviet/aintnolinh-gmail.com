@@ -1,0 +1,92 @@
+.modal {
+  height: 100%;
+  overflow: hidden;
+  .header {
+    background-color: #eaeaea;
+    height: fit-content;
+    padding: 11px 0px;
+    display: flex;
+    justify-content: space-between;
+    .control-button {
+      display: flex;
+      justify-content: space-between;
+      button {
+        padding: 0;
+        background-color: #eaeaea;
+        border: 0;
+        margin-right: 10px;
+      }
+    }
+  }
+  .content {
+    display: flex;
+    padding: 13px;
+    overflow: hidden;
+    height: 79%;
+    .data-table {
+      width: 55%;
+      margin: 0;
+      ul {
+        list-style-type: none;
+        background-color: #f1f1f1;
+        border: solid 1px #d8d8d8;
+        text-align: left;
+        padding: 11px;
+      }
+      table {
+        thead {
+          tr {
+            background-color: #eaeaea;
+          }
+        }
+        td {
+          text-align: left;
+          padding-left: 15px;
+          font-size: 13px;
+          font-weight: 500;
+        }
+      }
+    }
+    .action-menu {
+      width: 45%;
+      border: solid 1px #d8d8d8;
+      background-color: #ffffff;
+      .action-menu-header {
+        display: flex;
+        font-size: 14px;
+        justify-content: space-between;
+        border: solid 1px #eaeaea;
+        background-color: #eaeaea;
+        padding: 9px;
+      }
+      .action-menu-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 60%;
+        button {
+          width: 50%;
+          align-self: center;
+          border-radius: 4px;
+          border: solid 1px #bbbbbb;
+          background-color: #eaeaea;
+          padding: 4px;
+        }
+      }
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    background-color: #f1f1f1;
+    padding: 11px;
+    button {
+      border-radius: 4px;
+      border: solid 1px #bbbbbb;
+      background-color: #d1d0d1;
+      padding: 8px 16px;
+      margin-left: 11px;
+    }
+  }
+}

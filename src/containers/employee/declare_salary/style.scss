@@ -1,0 +1,19 @@
+.declare-screen {
+  padding: 24px 55px;
+
+  .action-button {
+    display: flex;
+    justify-content: flex-end;
+    .active {
+      background-color: #cd0000;
+      color: white;
+    }
+    button {
+      border-radius: 4px;
+      border: solid 1px #bbbbbb;
+      background-color: #eaeaea;
+      padding: 11px;
+      margin-left: 16px;
+    }
+  }
+}

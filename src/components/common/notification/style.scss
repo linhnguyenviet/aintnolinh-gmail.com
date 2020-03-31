@@ -1,0 +1,15 @@
+.side-notification {
+  position: sticky;
+  top: 10px;
+  right: 10px;
+  left: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  width: fit-content;
+  background-color: #00b33c;
+  p {
+    margin: 10px 30px;
+    color: #ffffff;
+    border: 1px solid #00b33c;
+  }
+}

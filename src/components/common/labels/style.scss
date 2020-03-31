@@ -1,0 +1,41 @@
+.label {
+  height: fit-content;
+  position: relative;
+
+  svg {
+    width: 200px;
+    height: 52px;
+  }
+  .color1 {
+    path {
+      fill: #63a043 !important;
+    }
+  }
+  .color2 {
+    path {
+      fill: #f5c204 !important;
+    }
+    color: #ffffff !important;
+  }
+  .color3 {
+    path {
+      fill: #eaeaea !important;
+    }
+    @at-root .label {
+      span {
+        color: #000000 !important;
+      }
+    }
+  }
+  span {
+    width: 78%;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 25px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+}

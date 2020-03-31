@@ -1,0 +1,53 @@
+@import "../../../assets/scss/vars";
+
+.wrapper {
+  button {
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    outline: none;
+    width: max-content;
+    border: 0.0625rem solid $primary-color;
+    color: $primary-color;
+  }
+
+  &.primary {
+    button {
+      background-color: $primary-color;
+      box-shadow: 0 1rem 1.75rem -0.875rem $primary-color;
+      color: $white-grey;
+    }
+  }
+
+  &.secondary {
+    button {
+      background-color: $secondary-color;
+      box-shadow: 0 1rem 1.75rem -0.875rem $secondary-color;
+      color: $white-grey;
+      border-color: $secondary-color;
+    }
+  }
+
+  &.transparent {
+    button {
+      background-color: transparent;
+    }
+  }
+
+  &.block {
+    width: 100%;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  &.small {
+    button {
+      font-weight: 500;
+      font-size: 1rem;
+    }
+  }
+}

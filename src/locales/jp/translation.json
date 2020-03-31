@@ -1,0 +1,39 @@
+{
+  "home": {
+    "construction_management": "工事管理",
+    "process": "工程",
+    "stock": "在庫",
+    "accounting": "経理",
+    "employee": "従業員",
+    "button": {
+      "add_construction": "建設を追加",
+      "edit_construction": "建設を編集",
+      "delete_construction": "建設を削除"
+    },
+    "table": {
+      "name_construction": "工事名称"
+    },
+    "right-menu": {
+      "construction_number": "工事番号",
+      "construction_name": "工事名称",
+      "customer_name": "顧客名称",
+      "designer_name": "設計名称",
+      "supervision_name": "監理名称",
+      "processing_name": "加工名称",
+      "UT_inspection": "第三者検査名称",
+      "date_start": "工事スタート日",
+      "date_end": "工事完了日",
+      "design_manager": "設計担当者",
+      "material_manager": "資材担当者",
+      "roughing_manager": "一次加工担当者",
+      "production_manager": "二次加工担当者",
+      "inspector": "検査担当者",
+      "shipment": "出荷担当者",
+      "roughing_company": "一次加工名称",
+      "production_company": "二次加工名称",
+      "note_1": "備考 1",
+      "note_2": "備考 2",
+      "note_3": "備考 3"
+    }
+  }
+}

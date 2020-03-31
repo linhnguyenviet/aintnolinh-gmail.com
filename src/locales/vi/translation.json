@@ -1,0 +1,39 @@
+{
+  "home": {
+    "construction_management": "Quản Lý Công Trình",
+    "process": "Tiến Độ",
+    "stock": "Kho",
+    "accounting": "Tài Chính",
+    "employee": "Nhân Viên",
+    "button": {
+      "add_construction": "Thêm công trình",
+      "edit_construction": "Sửa công trình",
+      "delete_construction": "Xóa công trình"
+    },
+    "table": {
+      "name_construction": "Tên công trình"
+    },
+    "right-menu": {
+      "construction_number": "Số hiệu công trình",
+      "construction_name": "Tên công trình",
+      "customer_name": "Công ty khách hàng",
+      "designer_name": "công ty thiết kế",
+      "supervision_name": "Công ty quản lý thi công",
+      "processing_name": "công ty gia công",
+      "UT_inspection": "Công ty kiểm tra chất lượng sản phẩm",
+      "date_start": "Ngày bắt đầu",
+      "date_end": "Ngày kết thúc",
+      "design_manager": "Người quản lý bản vẽ",
+      "material_manager": "Người quản lý vật liệu",
+      "roughing_manager": "Người quản lý gia công thô",
+      "production_manager": "Người quản lý gia công thành phẩm",
+      "inspector": "Người quản lý kiểm tra chất lượng",
+      "shipment": "Người quản lý xuất hàng",
+      "roughing_company": "Công ty gia công thô",
+      "production_company": "Công ty gia công thành phẩm",
+      "note_1": "Ghi chú 1",
+      "note_2": "Ghi chú 2",
+      "note_3": "Ghi chú 3"
+    }
+  }
+}

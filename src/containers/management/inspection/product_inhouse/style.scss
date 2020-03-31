@@ -1,0 +1,161 @@
+.product-inhouse {
+  display: flex;
+  padding-top: 23px;
+  table {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    overflow: scroll;
+    tr {
+      &:nth-child(even) {
+        background-color: #f1f1f1;
+      }
+      td {
+        padding: 13px 24px;
+        border: solid 1px #d8d8d8;
+      }
+    }
+    thead {
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #e1e1e1;
+    }
+    tbody {
+      font-size: 16px;
+    }
+  }
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    .picture {
+      width: 197px;
+      height: 251px;
+      background-color: rgba(229, 180, 179, 0.42);
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+    ul {
+      border: solid 1px #d8d8d8;
+      background-color: #f1f1f1;
+      list-style-type: none;
+      padding: 16px 12px;
+      margin: 0px;
+      li {
+        display: flex;
+        justify-content: space-between;
+        margin: 8px;
+        height: 30px;
+        input {
+          width: 60%;
+          padding: 5px 16px;
+        }
+        span {
+          align-self: center;
+        }
+      }
+    }
+    .info-table {
+      border: solid 1px #d8d8d8;
+      background-color: #f1f1f1;
+      margin-top: 8px;
+      height: 100%;
+      button {
+        background-color: #f1f1f1;
+        border: 0;
+        float: right;
+        margin: 16px 16px 6px 0px;
+      }
+    }
+  }
+  .right-content {
+    width: 70%;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    .params-input {
+      display: flex;
+      border: solid 1px #d8d8d8;
+      background-color: #f1f1f1;
+      padding: 16px;
+      margin-bottom: 8px;
+      button {
+        width: 152px;
+        border-radius: 4px;
+        border: solid 1px #c6c6c6;
+        background-color: #ffffff;
+        padding: 8px 0px;
+      }
+      div {
+        &:first-child {
+          justify-content: center;
+          button {
+            margin: 8px;
+          }
+        }
+        display: flex;
+        flex-direction: column;
+        margin: 0px 17px;
+        span {
+          margin: 8px;
+          input {
+            padding: 8px;
+            width: 65px;
+            margin-left: 4px;
+            border-radius: 4px;
+            border: solid 1px #c6c6c6;
+          }
+        }
+      }
+      .add {
+        width: fit-content;
+        height: fit-content;
+        padding: 0px;
+        background-color: #f1f1f1;
+        border: 0px;
+        margin: 8px 17px;
+      }
+      .add-row {
+        align-self: center;
+      }
+    }
+    .table-data {
+      height: 100%;
+      background-color: #f1f1f1;
+      border: solid 1px #d8d8d8;
+      table {
+        width: 100%;
+        thead {
+          tr {
+            td {
+              padding: 20px 0px;
+              text-align: center;
+            }
+          }
+        }
+        tr {
+          td {
+            padding: 7px;
+            text-align: center;
+            &:nth-child(1) {
+              text-align: left;
+              padding-left: 16px;
+            }
+            &:nth-child(2) {
+              padding: 11px 45px 11px 20px;
+              text-align: left;
+            }
+
+            input {
+              padding: 8px;
+              width: 45px;
+              margin-left: 4px;
+              border-radius: 4px;
+              border: solid 1px #c6c6c6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
